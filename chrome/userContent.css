@@ -1,0 +1,37 @@
+@-moz-document url("about:newtab") {
+    /* Fix Scrollbar Bug */
+    body {
+        overflow-y: auto !important;
+    }
+
+    /* Basic Background and Primary Text Color */
+    body, .sidebar, .actions, .disabled {
+        background-color: #323234 !important;
+        color: #f4f4f5 !important;
+    }
+
+    /* Border Color */
+    .sidebar, .actions {
+        border: 1px solid #69696b !important;
+    } 
+
+    /* Secondary Text Color */
+    p, input {
+        color: #98989a !important;
+    }
+
+    /* Search Bar Background Color */
+    input {
+        background-color: #474749 !important;
+    }
+
+    /* Icons Background Color */
+    .icon {
+        background-color: #69696b !important;
+    }
+
+    /* Done Button Background Color */
+    .done {
+        background-color: #0a84ff !important;
+    }
+}

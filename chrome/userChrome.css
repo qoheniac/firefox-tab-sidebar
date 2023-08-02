@@ -1,0 +1,39 @@
+/* Hide Black Line below Title Bar */
+#nav-bar {
+    border-top-style: none !important;
+}
+
+/* Hide Tab Bar */
+#TabsToolbar {
+    visibility: collapse !important;
+}
+
+/* hide sidebar when only one tab open */
+#main-window[titlepreface="[1] "] #sidebar-box {
+    visibility: collapse;
+}
+
+/* Auto-Shrink Side Bar */
+#sidebar-box {
+    overflow-x: hidden;
+    min-width: 69px !important;
+    max-width: 69px !important;
+    transition: all 0.3s ease 0.1s !important;
+}
+#sidebar-box:hover {
+    min-width: 250px !important;
+    max-width: 250px !important;
+    transition: all 0.3s ease 0.9s !important;
+}
+
+/* Hide Side Bar Header */
+#sidebar-header {
+    visibility: collapse !important;
+}
+
+/* Hide Side Bar Splitter display:none !important */
+#sidebar-splitter{
+    background-color: #080809 !important;
+    border-color: #080809 !important; 
+    width: 0px !important;
+}
