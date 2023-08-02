@@ -19,4 +19,4 @@ Install [Tab Center Reborn](https://framagit.org/ariasuni/tabcenter-reborn) and 
 }
 ```
 
-Then add the files in this repository to your Firefox profile folder.
+Then install [Tab Count in Window Title](https://github.com/Lej77/tab-count-in-window-title) and add the files in this repository to your Firefox profile folder.
